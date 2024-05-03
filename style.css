@@ -1,0 +1,570 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+body {
+  width: 100%;
+  height: 100%;
+  background-image: url("./assets/RetanguloVerde.svg");
+  background-size: 170vh;
+  background-repeat: no-repeat;
+  background-color: #1e1e1e;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.sectionHeader {
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.divNome {
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+nav {
+  width: 40vw;
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  width: 30vw;
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.divNumber {
+  width: 13vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+header .divNumber p {
+  width: 10vw;
+  font-size: 0.8vw;
+  color: #a2f73d;
+  letter-spacing: 0.2vw;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+}
+
+a{
+    font-size: 1vw;
+    color: #A2F73D;
+    letter-spacing: 0.1vw;
+    font-family: "Oswald", sans-serif;
+    text-decoration: none;
+}
+
+.divNome p {
+    font-size: 0.7vw;
+    color:#D6D1D5;
+    font-weight: 300;
+    letter-spacing: 0.4vw;
+    font-family: "Oswald", sans-serif;
+}
+
+header h1{
+    font-size: 2vw;
+    color:#D6D1D5;
+    font-weight: 400;
+    letter-spacing: 0.2vw;
+    font-family: "Oswald", sans-serif;
+}
+
+.primeiraTela {
+    width: 99vw;
+    height: 90vh;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.primeiraTela section {
+    width: 40vw;
+    height: 70vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-evenly;
+    
+}
+
+.sectionImgRafa{
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionImgRafa img{
+    width: 30vw;
+}
+
+.h2fs{
+    width: 35vw;
+    font-size: 4vw;
+    color:#A2F73D;
+    text-shadow: 5px 3px 5px #D6D1D5;
+    font-weight: 400;
+    font-family: "Oswald", sans-serif;
+}
+
+.p2fs {
+    font-size: 1vw;
+    letter-spacing: 10px;
+    color: #D6D1D5;
+    font-family: "Oswald", sans-serif;
+}
+
+.button1, .button2 {
+  width: 15vw;
+  height: 8vh;
+  border-radius: 50px;
+  border-style:none;
+  background-color: #A2F73D ;
+  color: #1D3640;
+  box-shadow: 3px 3px 5px #fff;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+
+.sectionCards {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sectionCards div{
+    background-color: #D6D1D5;
+    width: 18vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    justify-content: space-evenly;
+}
+
+.sectionCards h2{
+    width: 8vw;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+}
+
+.sectionCards p{
+    width: 15vw;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-weight: 400;
+}
+
+.sectionCards button{
+    width: 7vw;
+    height: 4vh;
+    border-radius: 15px;
+    border-style: none;
+    background-color: #021718;
+    color: #A2F73D;
+    box-shadow: 2px 4px 5px black;
+    font-family: "Poppins", sans-serif;
+}
+
+.sectionSobreMim{
+    width: 94vw;
+    height: 58vh;
+    border-radius: 0px 30px 30px 0px;
+    box-shadow: 15px 15px 30px #000;
+    background-color: #021718 ;
+}
+
+.sectionSobreMim h2 {
+    text-align: center;
+    font-size: 3vw;
+    text-shadow: 2px 2px 5px #fff;
+    font-weight: 400;
+    color: #A2F73D;
+    font-family: "Oswald", sans-serif;
+}
+
+.sectionSobreMim p{
+    width: 59vw;
+    font-size: 1vw;
+    font-family: "Poppins", sans-serif;
+    color:#D6D1D5;
+    letter-spacing: 3px;
+    line-height: 35px;  
+}
+
+.sectionSobreMim div{
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.sectionSobreMim img{
+    width: 30vw;
+}
+
+.sectionContatos {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    height: 60vh;
+}
+
+.sectionContatos div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 70vw;
+    height: 30vh;
+    border-radius: 500px 0px 0px 500px;
+    box-shadow: 15px 15px 15px #000;
+    background-color: #D6D1D5;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+    background-color: #131212;
+}
+
+footer p{
+    width: 17vw;
+    font-size: 0.7vw;
+    font-family: "Oswald", sans-serif;
+    color:#D6D1D5;
+    letter-spacing: 5px;
+    font-weight: 300;
+}
+
+footer img {
+    width: 1.5vw;
+}
+
+@media (max-width: 1365px) {
+    .sectionHeader h1{
+      font-size: 3vw;
+    }
+  
+    header .divNome p{
+      font-size: 1.3vw;
+    }
+  
+    a{
+      font-size: 1.4vw;
+    }
+
+    .divNumber p{
+        font-size: 1.0vw;
+    }
+
+    .h2fs{
+        font-size: 7vw;
+    }
+
+    .sectionImgRafa img{
+        width: 35vw;
+    }
+
+    .sectionCards div{
+        width: 25vw;
+    }
+
+    .sectionCards p {
+        width: 20vw;
+    }
+
+    footer p{
+        width: 25vw;
+    }
+  
+      
+  }
+
+@media (max-width: 1280px) {
+    .sectionCards div{
+        width: 30vw;
+    }
+
+    .sectionCards p{
+        width: 28vw;
+    }
+
+    .sectionCards button{
+        width: 10vw;
+    }
+
+    .sectionSobreMim p{
+        font-size: 1.2vw;
+        line-height: 32px;
+        
+    }
+
+  }
+
+@media (max-width: 1024px){
+    a{
+        font-size: 2vw;
+    }
+
+    .divNumber{
+        width: 25vw;
+    }
+
+    #number{
+        width: 15vw;
+        font-size: 1.5vw;
+    }
+
+    .button1{
+        display: none;
+    }
+
+    .primeiraTela .sectionRafa{
+        width: 100%;
+        height: 30vh;
+    }
+
+    .primeiraTela section div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .primeiraTela {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .p2fs{
+        font-size: 1.5vw;
+    }
+
+    .sectionImgRafa{
+        height: 100vh;
+    }
+
+    .sectionImgRafa img{
+        width: 30vw;
+    }
+
+    .sectionCards{
+        height: 180vh;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .sectionCards div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40vw;
+    }
+
+    .sectionCards div h2{
+        text-align: center;
+        width: 15vw;
+    }
+
+    .sectionCards div img{
+        width: 12vw;
+    }
+
+    .sectionCards div p{
+        font-size: 2vw;
+    }
+
+    .sectionCards div button{
+        width: 18vw;
+    }
+
+    .sectionSobreMim{
+        height: 50vh;
+    }
+
+    .sectionSobreMim h2{
+        font-size: 5vw;
+    }
+
+    .sectionSobreMim p{
+        line-height: 18px;
+        font-size: 1.5vw;
+    }
+
+    .sectionSobreMim img{
+        width: 40vw;
+    }
+
+    .sectionContatos div{
+        height: 20vh;
+    }
+
+    .sectionContatos img{
+        width: 8vw;
+    }
+
+    footer p{
+        width: 30vw;
+        font-size: 1vw;
+    }
+}
+
+@media (max-width: 767px) {
+    .sectionHeader img{
+        width: 15vw;
+    }
+
+    .sectionHeader h1{
+        font-size: 4vw;
+    }
+
+    .sectionHeader .divNome p{
+        font-size: 2vw;
+    }
+
+    .divNumber{
+        display: none;
+    }
+
+    .primeiraTela{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .primeiraTela .sectionRafa{
+        height: 10vh;  
+    }
+
+     ul{
+        display: flex;
+        justify-content: space-between;
+        width: 50vw;
+    }
+
+    nav ul a{
+        font-size: 3vw;
+    }
+
+    .h2fs{
+        width: 100%;
+        font-size: 7vw;
+        line-height: 50px;
+        letter-spacing:3px;
+        text-align: center;
+    }
+
+    .p2fs{
+        text-align: center;
+        font-size: 3vw;
+        letter-spacing: 7px;
+    }
+
+    .sectionImgRafa img{
+        width: 60vw;
+    }
+
+    .button2{
+        width: 40vw;
+    }
+
+    .sectionCards div{
+        width: 60vw;
+        display: flex;
+        justify-content: space-around;
+      
+    }
+
+    .sectionCards div img{
+        width: 25vw;
+    }
+
+    .sectionCards div h2{
+        width: 60vw;
+       text-align: center;
+       
+    }
+
+    .sectionCards div p{
+        width: 50vw;
+        font-size: 3vw;
+    }
+
+    .sectionCards div button{
+        width: 30vw;
+        height: 5vh;
+    }
+
+    .sectionSobreMim{
+        width: 80vw;
+        height: 90vh;
+        justify-content: space-between;
+    }
+
+    .sectionSobreMim div{
+        height: 75vh;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        
+    }
+
+    .sectionSobreMim div img{
+        width: 50vw;
+    }
+
+    .sectionSobreMim div p{
+        width: 70vw;
+        margin-left: 25px;
+        font-size: 2.5vw;
+        text-align: center;
+    }
+
+    .sectionContatos div{
+        display: flex;
+        flex-direction: column;
+        width: 20vw;
+        height: 50vh;
+    }
+
+    footer p {
+        width: 70vw;
+        font-size: 2vw;
+    }
+
+    footer img{
+        width: 5vw;
+    }
+}
+
+@media screen and (min-device-width: 1025px) and (max-device-width: 2000px) { 
+    .button2{
+        display: none;
+    }
+}
